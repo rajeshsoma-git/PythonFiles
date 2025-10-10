@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Porting Validation Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background: #f4f4f4; }
+        tr:nth-child(even) { background: #fafafa; }
+        .yes { color: green; font-weight: bold; }
+        .no { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Porting Validation Report</h1>
+    <div id="table-container">
+        <!-- Table will be inserted here by script -->
+    </div>
+    <script>
+    fetch('porting_validation_report.xlsx')
+      .then(response => response.arrayBuffer())
+      .then(data => {
+        // Use SheetJS to parse Excel (if available in your environment)
+        // This is a placeholder for actual Excel-to-HTML conversion
+        document.getElementById('table-container').innerHTML = '<p>Open the Excel file in your local environment for full details.</p>';
+      });
+    </script>
+</body>
+</html>

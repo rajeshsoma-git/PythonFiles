@@ -1,0 +1,733 @@
+Solution Quotation 172883
+Quote Name: Renewals CSV Issue 1
+Quote Date: 09-Oct-2025
+
+Quote Valid Until: 08-Nov-2025
+
+Contact Name: No Account Owner
+Email: phaniraj.nadiger@netapp.com.invalid
+Quote To: Apple Inc., Cupertino California United States 95014
+Quote From: NetApp Inc. , 3060 Olsen Drive, San Jose, CA, 95128, US
+End Customer: Apple Inc., Cupertino California United States 95014
+Quote Status: Configured
+
+SupportEdge Renewals Pricing Summary
+Serial Number / Quote Linkage
+
+Service Period
+
+Ext. List Price
+
+Ext. Net Price
+
+30-Nov-2024
+
+$29,098.76
+
+$24,681.68
+
+01-Sep-2026
+
+31-Aug-2027
+
+$70,300.00
+
+$56,605.56
+
+01-Dec-2025
+
+30-Nov-2026
+
+$239,775.92
+
+$201,603.60
+
+Service Period Start Service Period End
+
+Duration
+
+Date
+
+Date
+
+721842000141, 721842000142
+
+12 Months
+
+01-Dec-2023
+
+952125002317, 952125002349
+
+12 Months
+
+792230000256, 792230000264
+
+12 Months
+
+Renewals Grand Total:
+
+$282,890.84
+
+Detailed Section
+NetApp Services
+Config#4793205561728832
+FAS 9000A Renewal
+Services
+Estimated
+Part Number
+
+Product Description
+
+Ext. Qty
+
+Unit List Price
+
+Disc%
+
+Unit Net Price
+
+Ext. Net Price
+
+CS-G1-SE-
+
+SupportEdge Advisor
+
+2
+
+$12,329.98
+
+15.92
+
+$10,367.05
+
+$20,734.10
+
+ADVISOR
+
+[ Discount Cat:T]
+Serial Number: 721842000141, 721842000142
+
+Includes : Renewals,RIF
+
+Service Period Start Date:01-Dec-2023 Service Period End Date:30-Nov-2024
+Service Period Duration:12Months
+Service Address: California United States 95014
+
+Service Details
+
+Qty
+
+Advisor,SW Support
+
+2
+
+01-Dec-2023
+
+30-Nov-2024
+
+12
+
+Advisor,HW Support
+
+2
+
+01-Dec-2023
+
+30-Nov-2024
+
+12
+
+Service Start Date Service End Date Duration
+
+All amounts are in USD
+Price List: NA-USD
+
+Date Printed: 09-Oct-2025
+
+Page: 1 of 6
+
+Solution Quotation 172883
+System Details: Product
+
+Qty
+
+Core Bundle
+
+1296
+
+FAS-9000, High Availability, No_IOXM
+
+2
+
+DS224C, 14.4 TB, SAS HDD 12x 1.2 TB, Non-Encrypted
+
+1
+
+DS224C, 115.2 TB, SAS HDD 24x 1.2 TB, Non-Encrypted
+
+4
+
+EOSL Date
+
+30/11/2028
+
+Please see the quote footer for additional information on EOS limitations.
+Estimated
+Part Number
+
+Product Description
+
+CS-SYSTEMSUPPORT-REINST
+
+Reinstatement fee for lapsed
+Support
+
+Ext. Qty
+
+Unit List Price
+
+Disc%
+
+Unit Net Price
+
+Ext. Net Price
+
+2
+
+$986.40
+
+5.00
+
+$937.08
+
+$1,874.16
+
+[ Discount Cat:W]
+Serial Number: 721842000141, 721842000142
+Estimated
+Part Number
+
+Product Description
+
+Ext. Qty
+
+Unit List Price
+
+Disc%
+
+Unit Net Price
+
+Ext. Net Price
+
+2
+
+$1,233.00
+
+15.92
+
+$1,036.71
+
+$2,073.42
+
+CS-4HR-DELIVERY 4hr Parts Delivery
+[ Discount Cat:T]
+
+Serial Number: 721842000141, 721842000142
+Service Period Start Date:01-Dec-2023 Service Period End Date:30-Nov-2024
+
+Includes : Renewals,RIF
+
+Service Period Duration:12Months
+Service Address: California United States 95014
+
+Service Details
+
+Qty
+
+4hr Parts Delivery
+
+2
+
+Service Start Date Service End Date Duration
+01-Dec-2023
+
+30-Nov-2024
+
+System Details: Product
+
+Qty
+
+EOSL Date
+
+FAS-9000, High Availability, No_IOXM
+
+2
+
+30/11/2028
+
+DS224C, 14.4 TB, SAS HDD 12x 1.2 TB, Non-Encrypted
+
+1
+
+DS224C, 115.2 TB, SAS HDD 24x 1.2 TB, Non-Encrypted
+Core Bundle
+
+12
+
+4
+1296
+
+Please see the quote footer for additional information on EOS limitations.
+Estimated NetApp Services Sub Total:
+
+Ext. List Price: $29,098.76
+
+Discount: 15.18
+
+Ext. Net Price:$24,681.68
+
+NetApp Services
+Config#47932055617288311
+AFF A400A Renewal
+Services
+
+All amounts are in USD
+Price List: NA-USD
+
+Date Printed: 09-Oct-2025
+
+Page: 2 of 6
+
+Solution Quotation 172883
+Estimated
+Part Number
+
+Product Description
+
+Ext. Qty
+
+Unit List Price
+
+Disc%
+
+Unit Net Price
+
+Ext. Net Price
+
+2
+
+$3,195.46
+
+19.48
+
+$2,572.98
+
+$5,145.96
+
+CS-4HR-DELIVERY 4hr Parts Delivery
+[ Discount Cat:T]
+
+Serial Number: 952125002317, 952125002349
+Service Period Start Date:01-Sep-2026 Service Period End Date:31-Aug-2027
+
+Includes : Renewals
+
+Service Period Duration:12Months
+Service Address: California United States 95014
+
+Service Details
+
+Qty
+
+4hr Parts Delivery
+
+2
+
+Service Start Date Service End Date Duration
+01-Sep-2026
+
+System Details: Product
+
+Qty
+
+ALL FLASH FAS-A400, High Availability, No_IOXM
+
+2
+
+DS224C, 114.0 TB, SAS SSD 15x 3.8 TB, Non-Encrypted
+
+2
+
+DS224C, 92.16 TB, SAS SSD 24x 0.96 TB, Non-Encrypted
+
+4
+
+Core Bundle, Data Protection Bundle
+
+31-Aug-2027
+
+12
+
+EOSL Date
+
+31/07/2030
+
+2061
+
+Please see the quote footer for additional information on EOS limitations.
+Estimated
+Part Number
+
+Product Description
+
+Ext. Qty
+
+Unit List Price
+
+Disc%
+
+Unit Net Price
+
+Ext. Net Price
+
+CS-G1-SEADVISOR
+
+SupportEdge Advisor
+
+2
+
+$31,954.54
+
+19.48
+
+$25,729.80
+
+$51,459.60
+
+[ Discount Cat:T]
+Serial Number: 952125002317, 952125002349
+Service Period Start Date:01-Sep-2026 Service Period End Date:31-Aug-2027
+
+Includes : Renewals
+
+Service Period Duration:12Months
+Service Address: California United States 95014
+
+Service Details
+
+Qty
+
+Advisor,SW Support
+
+2
+
+01-Sep-2026
+
+31-Aug-2027
+
+12
+
+Advisor,HW Support
+
+2
+
+01-Sep-2026
+
+31-Aug-2027
+
+12
+
+Service Start Date Service End Date Duration
+
+System Details: Product
+
+Qty
+
+Core Bundle, Data Protection Bundle
+
+2061
+
+ALL FLASH FAS-A400, High Availability, No_IOXM
+
+2
+
+DS224C, 114.0 TB, SAS SSD 15x 3.8 TB, Non-Encrypted
+
+2
+
+DS224C, 92.16 TB, SAS SSD 24x 0.96 TB, Non-Encrypted
+
+4
+
+EOSL Date
+
+31/07/2030
+
+All amounts are in USD
+Price List: NA-USD
+
+Date Printed: 09-Oct-2025
+
+Page: 3 of 6
+
+Solution Quotation 172883
+Please see the quote footer for additional information on EOS limitations.
+Estimated NetApp Services Sub Total:
+
+Ext. List Price: $70,300.00
+
+Discount: 19.48
+
+Ext. Net Price:$56,605.56
+
+NetApp Services
+Config#47932055617288318
+FAS 9000A Renewal
+Services
+Estimated
+Part Number
+
+Product Description
+
+Ext. Qty
+
+Unit List Price
+
+Disc%
+
+Unit Net Price
+
+Ext. Net Price
+
+CS-4HRREPLACEMENT
+
+4hr Parts Replacement
+
+2
+
+$19,981.32
+
+15.92
+
+$16,800.29
+
+$33,600.58
+
+[ Discount Cat:T]
+Serial Number: 792230000256, 792230000264
+Service Period Start Date:01-Dec-2025 Service Period End Date:30-Nov-2026
+
+Includes : Renewals
+
+Service Period Duration:12Months
+Service Address: California United States 95014
+
+Service Details
+
+Qty
+
+4hr Parts Replacement
+
+2
+
+Service Start Date Service End Date Duration
+01-Dec-2025
+
+30-Nov-2026
+
+System Details: Product
+
+Qty
+
+EOSL Date
+
+FAS-9000, High Availability, No_IOXM
+
+2
+
+30/11/2028
+
+DS460C, 4800.0 TB, NLSAS HDD 60x 4.0 TB, Non-Encrypted
+
+20
+
+Encryption Bundle,
+
+2
+
+Core Bundle
+
+12
+
+48000
+
+Please see the quote footer for additional information on EOS limitations.
+Estimated
+Part Number
+
+Product Description
+
+Ext. Qty
+
+Unit List Price
+
+Disc%
+
+Unit Net Price
+
+Ext. Net Price
+
+CS-G1-SEADVISOR
+
+SupportEdge Advisor
+
+2
+
+$99,906.64
+
+15.92
+
+$84,001.51
+
+$168,003.02
+
+[ Discount Cat:T]
+Serial Number: 792230000256, 792230000264
+
+Includes : Renewals
+
+Service Period Start Date:01-Dec-2025 Service Period End Date:30-Nov-2026
+Service Period Duration:12Months
+Service Address: California United States 95014
+
+Service Details
+
+Qty
+
+Advisor,SW Support
+
+2
+
+01-Dec-2025
+
+30-Nov-2026
+
+12
+
+Advisor,HW Support
+
+2
+
+01-Dec-2025
+
+30-Nov-2026
+
+12
+
+Service Start Date Service End Date Duration
+
+All amounts are in USD
+Price List: NA-USD
+
+Date Printed: 09-Oct-2025
+
+Page: 4 of 6
+
+Solution Quotation 172883
+System Details: Product
+
+Qty
+
+Encryption Bundle,
+
+2
+
+Core Bundle
+
+EOSL Date
+
+48000
+
+FAS-9000, High Availability, No_IOXM
+
+2
+
+DS460C, 4800.0 TB, NLSAS HDD 60x 4.0 TB, Non-Encrypted
+
+20
+
+30/11/2028
+
+Please see the quote footer for additional information on EOS limitations.
+Estimated NetApp Services Sub Total:
+
+Ext. List Price: $239,775.92
+
+List Grand Total:
+
+Discount: 15.92
+
+Ext. Net Price:$201,603.60
+
+$339,174.68
+
+Total Discount:
+
+16.59
+
+Net Grand Total:
+
+$282,890.84
+
+All amounts are in USD
+Price List: NA-USD
+
+Date Printed: 09-Oct-2025
+
+Page: 5 of 6
+
+Solution Quotation 172883
+Quote Information
+Quote Name: Renewals CSV Issue 1
+Quote Date: 09-Oct-2025
+
+Quote Valid Until: 08-Nov-2025
+
+Contact Name: No Account Owner
+
+Phone:
+
+Email: phaniraj.nadiger@netapp.com.invalid
+Quote To: Apple Inc., Cupertino California United States 95014
+Quote From: NetApp Inc. , 3060 Olsen Drive, San Jose, CA, 95128, US
+End Customer: Apple Inc., Cupertino California United States 95014
+Ship To:
+Software Delivery Contact:
+Software Delivery Email:
+Quote Status: Configured
+
+Incoterm: EXW Laredo, TX
+
+Contract Number: 00019844.0
+
+Contingency: None
+
+Contract Name: Apple Computer, Inc_MASTER
+Purchase Agreement
+
+Order Type: Standard
+
+Payment Terms: NET 45
+
+Terms and Conditions
+This quote is presented for budgetary purposes only. All net prices and discounts are estimated values only and are subject to change. A
+budgetary quote cannot be used as the basis for valid purchase order.
+
+All amounts are in USD
+Price List: NA-USD
+
+Date Printed: 09-Oct-2025
+
+Page: 6 of 6
+
+

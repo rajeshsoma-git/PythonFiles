@@ -1,0 +1,123 @@
+Template Comparison between Master.xsl and Child.xsl
+
+Templates defined in Master.xsl (30):
+  BMI_addCurrencyLabel
+  BMI_addCurrencyLabelOnly
+  BMI_calculateSafePrice
+  BMI_determineDecimalSeparator
+  BMI_determineGroupingSeparator
+  BMI_formatCurrencyValue
+  BMI_formatFloat
+  BMI_formatLongDate
+  BMI_formatShortDate
+  BMI_getImageSrc
+  BMI_replaceSubstring
+  BMI_universalFormatPrice
+  BMI_universalFormatPriceCustom
+  BMI_universalNumber
+  BM_getEmbedDocSrc
+  NewcurrencyFormattedPrice
+  addendumTotalPrint
+  appendCurrencyPlaceHolder
+  copyNodes
+  currencyFormattedPrice
+  discountFormattedPrint
+  formatFloatPercent
+  getCustomXslTruth
+  ignoreHalfEvenRounding
+  netapp_formatPrice
+  printSumNumeric
+  splitTextIntoElementList
+  sumDriveCapacity
+  summaryPrintList
+  summaryPrintListALL
+
+Call-templates in Child.xsl (33):
+  BMI_addCurrencyLabel
+  BMI_calculateSafePrice
+  BMI_determineDecimalSeparator
+  BMI_determineGroupingSeparator
+  BMI_formatCurrencyValue
+  BMI_formatFloat
+  BMI_formatLongDate
+  BMI_replaceSubstring
+  NewcurrencyFormattedPrice
+  calculate-extended-list
+  convertToddMMMyyy
+  createCommaSeparatedList
+  currencyFormattedPrice
+  displayDiscountCategory
+  format-currency
+  formatDate
+  formatDateForHTML
+  formatServiceEndDate
+  formatServiceStartDate
+  getCustomXslTruth
+  getExtendedNetPrice
+  ignoreHalfEvenRounding
+  processAdvancedDiscounting
+  processAssetManagement
+  processBillingAndRenewal
+  processBundleManagement
+  processCommentsHistory
+  processCompanyBranding
+  processSupportEdgeRenewals
+  renderEnhancedMasterLogic
+  splitTextIntoElementList
+  sum-extended-list
+  sumDriveCapacity
+
+Templates from Master used in Child (14):
+  BMI_addCurrencyLabel
+  BMI_calculateSafePrice
+  BMI_determineDecimalSeparator
+  BMI_determineGroupingSeparator
+  BMI_formatCurrencyValue
+  BMI_formatFloat
+  BMI_formatLongDate
+  BMI_replaceSubstring
+  NewcurrencyFormattedPrice
+  currencyFormattedPrice
+  getCustomXslTruth
+  ignoreHalfEvenRounding
+  splitTextIntoElementList
+  sumDriveCapacity
+
+Templates from Master not used in Child (16):
+  BMI_addCurrencyLabelOnly
+  BMI_formatShortDate
+  BMI_getImageSrc
+  BMI_universalFormatPrice
+  BMI_universalFormatPriceCustom
+  BMI_universalNumber
+  BM_getEmbedDocSrc
+  addendumTotalPrint
+  appendCurrencyPlaceHolder
+  copyNodes
+  discountFormattedPrint
+  formatFloatPercent
+  netapp_formatPrice
+  printSumNumeric
+  summaryPrintList
+  summaryPrintListALL
+
+Call-templates in Child not defined in Master (19):
+  calculate-extended-list
+  convertToddMMMyyy
+  createCommaSeparatedList
+  displayDiscountCategory
+  format-currency
+  formatDate
+  formatDateForHTML
+  formatServiceEndDate
+  formatServiceStartDate
+  getExtendedNetPrice
+  processAdvancedDiscounting
+  processAssetManagement
+  processBillingAndRenewal
+  processBundleManagement
+  processCommentsHistory
+  processCompanyBranding
+  processSupportEdgeRenewals
+  renderEnhancedMasterLogic
+  sum-extended-list
