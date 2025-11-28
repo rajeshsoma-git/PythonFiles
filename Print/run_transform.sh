@@ -1,0 +1,1 @@
+java -cp "xalan-j_2_7_3/xalan.jar:xalan-j_2_7_3/serializer.jar:xalan-j_2_7_3/xercesImpl.jar:xalan-j_2_7_3/xml-apis.jar" org.apache.xalan.xslt.Process -IN Quote.xml -XSL Final.xsl -OUT test_output_final.html

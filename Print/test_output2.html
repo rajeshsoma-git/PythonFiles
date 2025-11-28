@@ -1,0 +1,678 @@
+<!DOCTYPE html><html xmlns:FunctionUtil="com.bm.xchange.services.templateengine.utils.TeFunctionUtil" xmlns:xfc="http://www.xmlmind.com/foconverter/xsl/extensions" xmlns:PrintUtil="com.bm.xchange.services.templateengine.utils.TePrintUtil" xmlns:axf="http://www.antennahouse.com/names/XSL/Extensions" xmlns:HeadingUtil="com.bm.xchange.services.templateengine.headingstyle.TeHeadingStyleUtil" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:DateUtil="com.bm.xchange.util.DateUtil" xmlns:fo="http://www.w3.org/1999/XSL/Format" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Solution Quotation - 172883</title>
+<style>
+/* ===== PDF-EXACT MATCHING STYLES - CENTRALIZED REUSABLE SYSTEM ===== */
+
+/* ===== PAGE LAYOUT - EXACT FO REPLICATION ===== */
+@page { size: 8.5in 11in; margin: 0.2in 0.5in 0.5in 0.5in; }
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    line-height: 100%;
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0.75in 0.5in 1.0in 0.5in;
+    text-align: left;
+    
+    background-image: url('FILEMANAGER#Output%2FBudgetary_logo_LtBlue.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+/* ===== CORE TYPOGRAPHY SYSTEM - PDF EXACT MATCH ===== */
+.pdf-header-title { font-family: Helvetica; font-size: 20pt; color: #000000; font-weight: bold; text-align: center; line-height: 30pt; }
+.pdf-text-8pt { font-family: Helvetica; font-size: 8pt; color: #000000; line-height: 8pt; }
+.pdf-text-8pt-bold { font-family: Helvetica; font-size: 8pt; color: #000000; font-weight: bold; line-height: 8pt; }
+.pdf-text-10pt { font-family: Helvetica; font-size: 10pt; color: #000000; line-height: 10pt; }
+.pdf-text-12pt { font-family: Helvetica; font-size: 12pt; color: #000000; line-height: 12pt; }
+.pdf-text-12pt-bold { font-family: Helvetica; font-size: 12pt; color: #000000; font-weight: bold; line-height: 12pt; }
+
+/* ===== PDF TABLE SYSTEM - EXACT FO MATCH ===== */
+.pdf-table { table-layout: fixed; width: 100%; border-collapse: collapse; float: left; font-family: Helvetica; }
+.pdf-table-cell { padding: 4px 0px; vertical-align: top; overflow: hidden; }
+.pdf-table-cell-bordered { padding: 4px 0px; vertical-align: top; border: 1px solid #000000; overflow: hidden; }
+
+/* ===== PDF COLUMN WIDTH SYSTEM - EXACT PROPORTIONAL MATCH ===== */
+.pdf-col-100 { width: 8.33%; }   /* 100/1200 */
+.pdf-col-200 { width: 16.67%; }  /* 200/1200 */
+.pdf-col-350 { width: 29.17%; }  /* 350/1200 */
+.pdf-col-400 { width: 33.33%; }  /* 400/1200 */
+
+/* ===== PDF TEXT ALIGNMENT SYSTEM ===== */
+.pdf-text-left { text-align: left; }
+.pdf-text-center { text-align: center; }
+.pdf-text-right { text-align: right; }
+
+/* ===== PDF SPACING SYSTEM - EXACT FO MATCH ===== */
+.pdf-space-1pt { line-height: 1pt; font-size: 1pt; margin: 0; padding: 0; }
+.pdf-margin-left-3px { margin-left: 3px; }
+.pdf-block-margin { margin-right: 0in; margin-left: 0in; margin-bottom: 0in; margin-top: 0in; }
+
+/* ===== PDF HEADER/FOOTER SYSTEM ===== */
+.pdf-logo { height: 40px; width: 195px; }
+.pdf-footer-text { font-family: Helvetica; font-size: 8pt; color: #000000; text-align: left; line-height: 8pt; }
+
+/* ===== PDF SECTION HEADERS ===== */
+.pdf-section-header { font-family: Helvetica; font-size: 12pt; color: #000000; font-weight: bold; text-align: left; line-height: 12pt; }
+.pdf-section-spacing { margin-bottom: 0.1in; }
+
+/* ===== LEGACY COMPATIBILITY LAYER ===== */
+.header { font-family: Helvetica, Arial, sans-serif; font-size: 20pt; font-weight: bold; color: #000000; text-align: center; line-height: 30pt; margin-bottom: 20px; }
+.small-text { font-family: Helvetica, Arial, sans-serif; font-size: 8pt; color: #000000; line-height: 8pt; }
+.normal-text { font-family: Helvetica, Arial, sans-serif; font-size: 12pt; color: #000000; line-height: 12pt; }
+.bold-text { font-weight: bold; }
+.section-header { font-family: Helvetica, Arial, sans-serif; font-size: 12pt; font-weight: bold; color: #000000; text-align: left; line-height: 13pt; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 12pt; }
+table td, table th { padding: 0; vertical-align: top; text-align: left; font-weight: normal; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.header-table { table-layout: fixed; width: 100%; border-collapse: collapse; margin-bottom: 0; }
+.info-table { table-layout: fixed; width: 100%; border-collapse: collapse; margin-bottom: 10pt; }
+.main-table { table-layout: fixed; width: 100%; border-collapse: collapse; margin-bottom: 3pt; }
+.col-100 { width: 8.33%; }
+.col-200 { width: 16.67%; }
+.col-250 { width: 20.83%; }
+.col-300 { width: 25%; }
+.col-400 { width: 33.33%; }
+.table-cell { padding: 4px 0px; vertical-align: top; }
+.spacing-1pt { line-height: 1pt; font-size: 1pt; margin: 0; padding: 0; }
+.margin-left-7pt { margin-left: 7pt; }
+.currency { text-align: right; font-family: Helvetica, Arial, sans-serif; font-size: 10pt; color: #000000; }
+.logo-container { text-align: left; padding: 4px 0px; }
+.logo-img { height: 40px; width: 195px; }
+.section-break { margin-top: 15pt; margin-bottom: 10pt; }
+.keep-together { page-break-inside: avoid; }
+.section-header { font-weight: bold; font-size: 13pt; color: #000; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+.config-section { page-break-inside: avoid; margin-bottom: 30px; }
+
+/* ===== PDF PRINT OPTIMIZATION ===== */
+@media print {
+    body { margin: 0.75in 0.5in 1.0in 0.5in; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    .pdf-table, .main-table, .header-table, .info-table { page-break-inside: avoid; }
+    .keep-together { page-break-inside: avoid; }
+    .pdf-section-header { page-break-after: avoid; }
+}
+        </style>
+</head>
+<body>
+<header class="page-header">
+<table class="pdf-table">
+<tr>
+<td class="col-200 logo-container"><img class="logo-img" alt="NetApp Logo" src="https://netappinctest3.bigmachines.com/bmfsweb/netappinctest3/image/logo/NetApp_Logo_QE.png"></td><td class="col-400 text-center">
+<div class="pdf-header-title">
+                            Solution Quotation
+                            172883</div>
+</td><td class="col-100"></td>
+</tr>
+</table>
+</header>
+<div class="section-break">
+<table class="pdf-table keep-together">
+<colgroup>
+<col class="col-200">
+<col class="col-250">
+<col class="col-200">
+<col class="col-200">
+</colgroup>
+<tr>
+<td class="pdf-table-cell pdf-text-right pdf-text-8pt">Quote Name:</td><td colspan="3" class="pdf-table-cell pdf-text-8pt">
+<div class="margin-left-7pt">Renewals CSV Issue 1</div>
+</td>
+</tr>
+<tr>
+<td class="pdf-table-cell pdf-text-right pdf-text-8pt">Quote Date:</td><td class="pdf-table-cell pdf-text-8pt">
+<div class="margin-left-7pt">09-Oct-2025</div>
+</td><td class="pdf-table-cell pdf-text-right pdf-text-8pt">Quote Valid Until:</td><td class="pdf-table-cell pdf-text-8pt">
+<div class="margin-left-7pt">08-Nov-2025</div>
+</td>
+</tr>
+<tr>
+<td class="pdf-table-cell pdf-text-right pdf-text-8pt">Contact Name:</td><td colspan="3" class="pdf-table-cell pdf-text-8pt">
+<div class="margin-left-7pt">No Account Owner</div>
+</td>
+</tr>
+<tr>
+<td class="pdf-table-cell pdf-text-right pdf-text-8pt">Email:</td><td colspan="3" class="pdf-table-cell pdf-text-8pt">
+<div class="margin-left-7pt">phaniraj.nadiger@netapp.com.invalid</div>
+</td>
+</tr>
+<tr>
+<td class="pdf-table-cell pdf-text-right pdf-text-8pt">Quote To:</td><td colspan="3" class="pdf-table-cell pdf-text-8pt">
+<div class="margin-left-7pt"></div>
+</td>
+</tr>
+<tr>
+<td class="pdf-table-cell pdf-text-right pdf-text-8pt">Quote From:</td><td colspan="3" class="pdf-table-cell pdf-text-8pt">
+<div class="margin-left-7pt">NetApp Inc., 3060 Olsen Drive, San Jose, CA, 95128, US</div>
+</td>
+</tr>
+<tr>
+<td class="pdf-table-cell pdf-text-right pdf-text-8pt">End Customer:</td><td colspan="3" class="pdf-table-cell pdf-text-8pt">
+<div class="margin-left-7pt"></div>
+</td>
+</tr>
+</table>
+</div>
+<div class="section-break">
+<h2 class="pdf-section-header">SupportEdge Renewals Pricing Summary</h2>
+<table class="pdf-table">
+<thead>
+<tr>
+<th class="pdf-table-header">Serial Number / Quote Linkage</th><th class="pdf-table-header">Service Period Duration</th><th class="pdf-table-header">Service Period Start Date</th><th class="pdf-table-header">Service Period End Date</th><th class="pdf-table-header pdf-text-right">Ext. List Price</th><th class="pdf-table-header pdf-text-right">Ext. Net Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="pdf-table-cell">
+<table class="pdf-table pdf-table-nested">
+<tr>
+<td class="pdf-table-cell pdf-text-right">721842000141</td><td class="pdf-table-cell pdf-text-left">, 721842000142</td>
+</tr>
+</table>
+</td><td class="pdf-table-cell pdf-text-center">12 Months</td><td class="pdf-table-cell pdf-text-center">01-Dec-2023</td><td class="pdf-table-cell pdf-text-center">30-Nov-2024</td><td class="pdf-table-cell pdf-text-right">
+                                                $29,098.76</td><td class="pdf-table-cell pdf-text-right">
+                                                $24,681.68</td>
+</tr>
+<tr>
+<td class="pdf-table-cell">
+<table class="pdf-table pdf-table-nested">
+<tr>
+<td class="pdf-table-cell pdf-text-right">952125002317</td><td class="pdf-table-cell pdf-text-left">, 952125002349</td>
+</tr>
+</table>
+</td><td class="pdf-table-cell pdf-text-center">12 Months</td><td class="pdf-table-cell pdf-text-center">01-Sep-2026</td><td class="pdf-table-cell pdf-text-center">31-Aug-2027</td><td class="pdf-table-cell pdf-text-right">
+                                                $70,300.00</td><td class="pdf-table-cell pdf-text-right">
+                                                $56,605.56</td>
+</tr>
+<tr>
+<td class="pdf-table-cell">
+<table class="pdf-table pdf-table-nested">
+<tr>
+<td class="pdf-table-cell pdf-text-right">792230000256</td><td class="pdf-table-cell pdf-text-left">, 792230000264</td>
+</tr>
+</table>
+</td><td class="pdf-table-cell pdf-text-center">12 Months</td><td class="pdf-table-cell pdf-text-center">01-Dec-2025</td><td class="pdf-table-cell pdf-text-center">30-Nov-2026</td><td class="pdf-table-cell pdf-text-right">
+                                                $239,775.92</td><td class="pdf-table-cell pdf-text-right">
+                                                $201,603.60</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section-break">
+<table class="pdf-table">
+<tr>
+<td class="pdf-table-cell pdf-text-left pdf-grand-total"><strong>Renewals Grand Total:</strong></td><td class="pdf-table-cell pdf-text-right pdf-grand-total"><strong>
+                                            $282,890.84</strong></td>
+</tr>
+</table>
+</div>
+<div class="section-break">
+<h2 class="pdf-section-header pdf-section-spacing">Quote Details</h2>
+<div class="config-section">
+<h3 class="section-header">SES-SYSTEM</h3>
+</div>
+<h4 class="pdf-section-header">Services</h4>
+<table class="pdf-table">
+<thead>
+<tr class="pdf-table-header">
+<th class="pdf-table-cell pdf-text-left">Part Number</th><th class="pdf-table-cell pdf-text-left">Product Description</th><th class="pdf-table-cell pdf-text-center">Ext. Qty</th><th class="pdf-table-cell pdf-text-right">Unit List Price</th><th class="pdf-table-cell pdf-text-right">Disc%</th><th class="pdf-table-cell pdf-text-right">Unit Net Price</th><th class="pdf-table-cell pdf-text-right">Ext. Net Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell pdf-text-left">SSP-G1-ADVISOR</td><td class="pdf-table-cell pdf-text-left">
+<div>Advisor,SW Support</div>
+<div class="pdf-discount-category">
+                                                    [Discount Cat: T]
+                                                </div>
+</td><td class="pdf-table-cell pdf-text-center">2</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD4,950.07</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica"><span style="font-weight: bold"></span>15.92</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD4,162.02</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD8,324.04</span></span>
+</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td class="pdf-table-cell"></td><td colspan="5" class="pdf-table-cell pdf-text-left">
+<div class="pdf-serial-number">
+<strong>Serial Number:</strong>721842000141</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td colspan="6" class="pdf-table-cell pdf-text-left">
+<div class="pdf-service-info">
+<strong>Period Start Date:</strong>2023-12-01 00:00:00<strong>Period End Date:</strong>2024-11-30 00:00:00<strong>Service Period Duration:</strong>12 Months</div>
+<div class="pdf-service-address">
+<strong>Service Address:</strong> California United States 95014</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell pdf-text-left">SVC-G1-ADVISOR</td><td class="pdf-table-cell pdf-text-left">
+<div>Advisor,HW Support</div>
+<div class="pdf-discount-category">
+                                                    [Discount Cat: T]
+                                                </div>
+</td><td class="pdf-table-cell pdf-text-center">2</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD7,379.91</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica"><span style="font-weight: bold"></span>15.92</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD6,205.03</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD12,410.06</span></span>
+</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td class="pdf-table-cell"></td><td colspan="5" class="pdf-table-cell pdf-text-left">
+<div class="pdf-serial-number">
+<strong>Serial Number:</strong>721842000141</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td colspan="6" class="pdf-table-cell pdf-text-left">
+<div class="pdf-service-info">
+<strong>Period Start Date:</strong>2023-12-01 00:00:00<strong>Period End Date:</strong>2024-11-30 00:00:00<strong>Service Period Duration:</strong>12 Months</div>
+<div class="pdf-service-address">
+<strong>Service Address:</strong> California United States 95014</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell pdf-text-left">CS-SYSTEM-SUPPORT-REINST</td><td class="pdf-table-cell pdf-text-left">
+<div>Reinstatement fee for lapsed Support</div>
+<div class="pdf-discount-category">
+                                                    [Discount Cat: W]
+                                                </div>
+</td><td class="pdf-table-cell pdf-text-center">2</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD986.40</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica"><span style="font-weight: bold"></span>5.00</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD937.08</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD1,874.16</span></span>
+</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td class="pdf-table-cell"></td><td colspan="5" class="pdf-table-cell pdf-text-left">
+<div class="pdf-serial-number">
+<strong>Serial Number:</strong>721842000141</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td colspan="6" class="pdf-table-cell pdf-text-left">
+<div class="pdf-service-info">
+<strong>Period Start Date:</strong>2023-12-01 00:00:00<strong>Period End Date:</strong>2024-11-30 00:00:00<strong>Service Period Duration:</strong>12 Months</div>
+<div class="pdf-service-address">
+<strong>Service Address:</strong> California United States 95014</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell pdf-text-left">CS-4HR-DELIVERY</td><td class="pdf-table-cell pdf-text-left">
+<div>4hr Parts Delivery</div>
+<div class="pdf-discount-category">
+                                                    [Discount Cat: T]
+                                                </div>
+</td><td class="pdf-table-cell pdf-text-center">2</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD1,233.00</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica"><span style="font-weight: bold"></span>15.92</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD1,036.71</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD2,073.42</span></span>
+</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td class="pdf-table-cell"></td><td colspan="5" class="pdf-table-cell pdf-text-left">
+<div class="pdf-serial-number">
+<strong>Serial Number:</strong>721842000141</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td colspan="6" class="pdf-table-cell pdf-text-left">
+<div class="pdf-service-info">
+<strong>Period Start Date:</strong>2023-12-01 00:00:00<strong>Period End Date:</strong>2024-11-30 00:00:00<strong>Service Period Duration:</strong>12 Months</div>
+<div class="pdf-service-address">
+<strong>Service Address:</strong> California United States 95014</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="config-section">
+<h3 class="section-header">SES-SYSTEM</h3>
+</div>
+<h4 class="pdf-section-header">Services</h4>
+<table class="pdf-table">
+<thead>
+<tr class="pdf-table-header">
+<th class="pdf-table-cell pdf-text-left">Part Number</th><th class="pdf-table-cell pdf-text-left">Product Description</th><th class="pdf-table-cell pdf-text-center">Ext. Qty</th><th class="pdf-table-cell pdf-text-right">Unit List Price</th><th class="pdf-table-cell pdf-text-right">Disc%</th><th class="pdf-table-cell pdf-text-right">Unit Net Price</th><th class="pdf-table-cell pdf-text-right">Ext. Net Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell pdf-text-left">CS-4HR-DELIVERY</td><td class="pdf-table-cell pdf-text-left">
+<div>4hr Parts Delivery</div>
+<div class="pdf-discount-category">
+                                                    [Discount Cat: T]
+                                                </div>
+</td><td class="pdf-table-cell pdf-text-center">2</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD3,195.46</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica"><span style="font-weight: bold"></span>19.48</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD2,572.98</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD5,145.96</span></span>
+</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td class="pdf-table-cell"></td><td colspan="5" class="pdf-table-cell pdf-text-left">
+<div class="pdf-serial-number">
+<strong>Serial Number:</strong>952125002317</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td colspan="6" class="pdf-table-cell pdf-text-left">
+<div class="pdf-service-info">
+<strong>Period Start Date:</strong>2026-09-01 00:00:00<strong>Period End Date:</strong>2027-08-31 00:00:00<strong>Service Period Duration:</strong>12 Months</div>
+<div class="pdf-service-address">
+<strong>Service Address:</strong> California United States 95014</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell pdf-text-left">SSP-G1-ADVISOR</td><td class="pdf-table-cell pdf-text-left">
+<div>Advisor,SW Support</div>
+<div class="pdf-discount-category">
+                                                    [Discount Cat: T]
+                                                </div>
+</td><td class="pdf-table-cell pdf-text-center">2</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD20,674.64</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica"><span style="font-weight: bold"></span>19.48</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD16,647.22</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD33,294.44</span></span>
+</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td class="pdf-table-cell"></td><td colspan="5" class="pdf-table-cell pdf-text-left">
+<div class="pdf-serial-number">
+<strong>Serial Number:</strong>952125002317</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td colspan="6" class="pdf-table-cell pdf-text-left">
+<div class="pdf-service-info">
+<strong>Period Start Date:</strong>2026-09-01 00:00:00<strong>Period End Date:</strong>2027-08-31 00:00:00<strong>Service Period Duration:</strong>12 Months</div>
+<div class="pdf-service-address">
+<strong>Service Address:</strong> California United States 95014</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell pdf-text-left">SVC-G1-ADVISOR</td><td class="pdf-table-cell pdf-text-left">
+<div>Advisor,HW Support</div>
+<div class="pdf-discount-category">
+                                                    [Discount Cat: T]
+                                                </div>
+</td><td class="pdf-table-cell pdf-text-center">2</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD11,279.90</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica"><span style="font-weight: bold"></span>19.48</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD9,082.58</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD18,165.16</span></span>
+</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td class="pdf-table-cell"></td><td colspan="5" class="pdf-table-cell pdf-text-left">
+<div class="pdf-serial-number">
+<strong>Serial Number:</strong>952125002317</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td colspan="6" class="pdf-table-cell pdf-text-left">
+<div class="pdf-service-info">
+<strong>Period Start Date:</strong>2026-09-01 00:00:00<strong>Period End Date:</strong>2027-08-31 00:00:00<strong>Service Period Duration:</strong>12 Months</div>
+<div class="pdf-service-address">
+<strong>Service Address:</strong> California United States 95014</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="config-section">
+<h3 class="section-header">SES-SYSTEM</h3>
+</div>
+<h4 class="pdf-section-header">Services</h4>
+<table class="pdf-table">
+<thead>
+<tr class="pdf-table-header">
+<th class="pdf-table-cell pdf-text-left">Part Number</th><th class="pdf-table-cell pdf-text-left">Product Description</th><th class="pdf-table-cell pdf-text-center">Ext. Qty</th><th class="pdf-table-cell pdf-text-right">Unit List Price</th><th class="pdf-table-cell pdf-text-right">Disc%</th><th class="pdf-table-cell pdf-text-right">Unit Net Price</th><th class="pdf-table-cell pdf-text-right">Ext. Net Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell pdf-text-left">CS-4HR-REPLACEMENT</td><td class="pdf-table-cell pdf-text-left">
+<div>4hr Parts Replacement</div>
+<div class="pdf-discount-category">
+                                                    [Discount Cat: T]
+                                                </div>
+</td><td class="pdf-table-cell pdf-text-center">2</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD19,981.32</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica"><span style="font-weight: bold"></span>15.92</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD16,800.29</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD33,600.58</span></span>
+</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td class="pdf-table-cell"></td><td colspan="5" class="pdf-table-cell pdf-text-left">
+<div class="pdf-serial-number">
+<strong>Serial Number:</strong>792230000256</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td colspan="6" class="pdf-table-cell pdf-text-left">
+<div class="pdf-service-info">
+<strong>Period Start Date:</strong>2025-12-01 00:00:00<strong>Period End Date:</strong>2026-11-30 00:00:00<strong>Service Period Duration:</strong>12 Months</div>
+<div class="pdf-service-address">
+<strong>Service Address:</strong> California United States 95014</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell pdf-text-left">SSP-G1-ADVISOR</td><td class="pdf-table-cell pdf-text-left">
+<div>Advisor,SW Support</div>
+<div class="pdf-discount-category">
+                                                    [Discount Cat: T]
+                                                </div>
+</td><td class="pdf-table-cell pdf-text-center">2</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD74,148.01</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica"><span style="font-weight: bold"></span>15.92</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD62,343.65</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD124,687.30</span></span>
+</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td class="pdf-table-cell"></td><td colspan="5" class="pdf-table-cell pdf-text-left">
+<div class="pdf-serial-number">
+<strong>Serial Number:</strong>792230000256</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td colspan="6" class="pdf-table-cell pdf-text-left">
+<div class="pdf-service-info">
+<strong>Period Start Date:</strong>2025-12-01 00:00:00<strong>Period End Date:</strong>2026-11-30 00:00:00<strong>Service Period Duration:</strong>12 Months</div>
+<div class="pdf-service-address">
+<strong>Service Address:</strong> California United States 95014</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell pdf-text-left">SVC-G1-ADVISOR</td><td class="pdf-table-cell pdf-text-left">
+<div>Advisor,HW Support</div>
+<div class="pdf-discount-category">
+                                                    [Discount Cat: T]
+                                                </div>
+</td><td class="pdf-table-cell pdf-text-center">2</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD25,758.63</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica"><span style="font-weight: bold"></span>15.92</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD21,657.86</span></span>
+</div>
+</td><td class="pdf-table-cell pdf-text-right">
+<div style="line-height: 12pt; text-align: right">
+<span style="color: #000000; font-size: 12pt; font-family: Helvetica"><span style="font-size: 8pt; font-weight: normal; font-family: helvetica">USD43,315.72</span></span>
+</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td class="pdf-table-cell"></td><td colspan="5" class="pdf-table-cell pdf-text-left">
+<div class="pdf-serial-number">
+<strong>Serial Number:</strong>792230000256</div>
+</td>
+</tr>
+<tr class="pdf-table-row">
+<td class="pdf-table-cell"></td><td colspan="6" class="pdf-table-cell pdf-text-left">
+<div class="pdf-service-info">
+<strong>Period Start Date:</strong>2025-12-01 00:00:00<strong>Period End Date:</strong>2026-11-30 00:00:00<strong>Service Period Duration:</strong>12 Months</div>
+<div class="pdf-service-address">
+<strong>Service Address:</strong> California United States 95014</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section-break">
+<table class="pdf-table">
+<tr>
+<td class="pdf-table-cell pdf-text-right pdf-grand-total pdf-grand-total-border">
+                            GRAND TOTAL: $0.00</td>
+</tr>
+</table>
+</div>
+</div>
+<footer class="pdf-footer-text">
+<div class="text-center">
+                All amounts are in USD
+                | Price List: NA-USD
+                | Date Printed: 09-Oct-2025
+                | Page: 1 of 1
+            </div>
+</footer>
+</body>
+</html><div style="margin-top: 20px; padding: 10px; border-top: 1px solid #ccc; background-color: #f9f9f9;" class="subtotal-row">
+<table style="width: 100%; border-collapse: collapse;">
+<tr>
+<td style="text-align: left; font-weight: bold; padding: 5px; font-size: 12pt;">
+                            Estimated Software Sub Total:
+                        </td><td style="text-align: right; font-weight: bold; padding: 5px; font-size: 12pt;">
+                    $0.00</td>
+</tr>
+</table>
+</div><div style="margin-top: 10px; padding: 10px; border-top: 1px solid #ccc; background-color: #f9f9f9;" class="subtotal-row">
+<table style="width: 100%; border-collapse: collapse;">
+<tr>
+<td style="text-align: left; font-weight: bold; padding: 5px; font-size: 12pt;">
+                            Estimated Services Sub Total:
+                        </td><td style="text-align: right; font-weight: bold; padding: 5px; font-size: 12pt;">
+                    $325,584.96</td>
+</tr>
+</table>
+</div><div style="page-break-before: always;"></div><div style="margin: 0.1in 0; font-weight: bold; font-size: 12pt;">Detailed Section</div><div style="margin: 0.1in 0;"></div><div style="margin-top: 20px; padding: 10px; border-top: 1px solid #ccc; font-size: 10pt; text-align: center; font-weight: bold; color: black; font-family: helvetica; line-height: 107%;" class="page-footer">
+    All amounts are in USD</div><div style="margin-top: 5px; font-size: 8pt; text-align: left; font-family: helvetica;" class="page-footer-info">
+<div style="display: flex; justify-content: space-between;">
+<span>Price List: NA-USD</span><span>Date Printed: 2025-10-09 00:00:00</span>
+</div>
+</div>
